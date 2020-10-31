@@ -57,7 +57,7 @@ export default {
     },
     setPrevious() {
       this.previous = this.current;
-      this.operatorClicke = true;
+      this.operatorClicked = true;
     },
     divide() {
       this.operator = (a, b) => a / b;
